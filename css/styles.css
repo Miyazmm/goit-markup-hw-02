@@ -13,21 +13,22 @@ ul {
 }
 
 .logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: #4d5ae5;
     text-decoration: none;
 }
 
-.logo-accent {
-    color: #4D5AE5;
+.logo-accent-top {
+    color: #2e2f42;
 }
 
-.logo-footer {
-    font-weight: 700;
-    text-transform: uppercase;
+.logo-accent-bottom {
     color: #F4F4FD;
-    text-decoration: none;
 }
 
 .main-title {
@@ -48,11 +49,15 @@ ul {
 }
 
 .section-link:active {
+    color: #404BBF;
     text-decoration: underline;
 }
 
-.contacts-link {
+.contacts {
     font-style: normal;
+}
+
+.contacts-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -68,7 +73,7 @@ ul {
 .page-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.11;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
@@ -83,7 +88,7 @@ ul {
     background-color: #4D5AE5;
 }
 
-.order-button:hover {
+.order-button:hover, .order-button:focus {
     background-color: #404BBF;
 }
 
@@ -110,6 +115,7 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    text-transform: capitalize;
 }
 
 .members {
@@ -154,7 +160,7 @@ ul {
     color: #434455;
 }
 
-footer {
+.page-end {
     background-color: #2E2F42;
 }
 
@@ -163,5 +169,5 @@ footer {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--cloud);
+    color: #F4F4FD;;
 }
